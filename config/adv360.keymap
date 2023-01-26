@@ -43,7 +43,7 @@
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &none                                                              &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G             &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL   &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B             &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none   &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                     &mo 4  &kp SPACE   &kp END                  &kp PG_DN  &kp ENTER   &mo 4          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                     &mo 4  &kp SPACE   &kp END                  &kp PG_DN  &kp ENTER   &mo 5          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_LR1 {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F11                                                  &kp F12         &kp F6    &kp F7    &kp F8     &kp F9     &kp F10  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &trans                                                   &trans         &trans  &kp HOME    &kp UP  &kp PG_UP      &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans                  &trans  &trans   &trans  &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans         &trans   &kp END    &trans  &kp PG_DN      &trans  &trans
- &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans                  &trans  &trans   &trans                   &trans    &trans     &trans      &trans  &trans
+ &trans                                                              &kp F1                                                              &kp F2                                                              &kp F3                                                              &kp F4  &kp F5            &kp F11                                                  &kp F12         &kp F6    &kp F7    &kp F8     &kp F9     &kp F10  &trans
+ &trans                                                              &trans                                                              &trans                                                              &trans                                                              &trans  &trans             &trans                                                   &trans         &trans  &kp HOME    &kp UP  &kp PG_UP      &trans  &trans
+ &trans                                                              &trans  &macro_press &kp LSHFT, &macro_tap &kp S, &macro_release &kp LSHFT  &macro_press &kp LSHFT, &macro_tap &kp D, &macro_release &kp LSHFT  &macro_press &kp LSHFT, &macro_tap &kp F, &macro_release &kp LSHFT  &trans             &trans  &trans  &trans                  &trans  &trans   &trans  &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DELETE  &trans
+ &trans  &macro_press &kp LSHFT, &macro_tap &kp Z, &macro_release &kp LSHFT  &macro_press &kp LSHFT, &macro_tap &kp X, &macro_release &kp LSHFT  &macro_press &kp LSHFT, &macro_tap &kp C, &macro_release &kp LSHFT  &macro_press &kp LSHFT, &macro_tap &kp V, &macro_release &kp LSHFT  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans         &trans   &kp END    &trans  &kp PG_DN      &trans  &trans
+ &trans                                                              &trans                                                              &trans                                                              &trans                                                              &trans                     &trans  &trans  &trans                  &trans  &trans   &trans                   &trans    &trans     &trans      &trans  &trans
             >;
         };
 
