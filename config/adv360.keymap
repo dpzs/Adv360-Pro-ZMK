@@ -89,11 +89,11 @@
 
         layer_R1 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans         &trans          &kp HOME             &kp UP       &kp PG_UP           &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans         &trans  &trans  &kp BACKSPACE          &kp LEFT           &kp DOWN       &kp RIGHT       &kp DELETE  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans         &trans           &kp END             &trans       &kp PG_DN           &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp LA(ENTER)  &trans                           &trans             &trans          &trans           &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans         &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE     &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans         &trans          &kp HOME             &kp UP       &kp PG_UP           &trans     &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans         &trans  &trans  &kp BACKSPACE          &kp LEFT           &kp DOWN       &kp RIGHT       &kp DELETE  &kp GRAVE
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans         &trans           &kp END             &trans       &kp PG_DN           &trans     &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp LA(ENTER)  &trans                           &trans             &trans          &trans           &trans     &trans
             >;
         };
 
