@@ -1,3 +1,45 @@
+macro_scrolllock_del: macro_scrolllock_del{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_del";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp DEL>, <&kp K_SCROLL_UP>;
+};
+macro_scrolllock_ins: macro_scrolllock_ins{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_ins";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp INSERT>, <&kp K_SCROLL_UP>;
+};
+macro_scrolllock_q: macro_scrolllock_q{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_q";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp Q>, <&kp K_SCROLL_UP>;
+};
+macro_scrolllock_n: macro_scrolllock_n{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_n";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp N>, <&kp K_SCROLL_UP>;
+};
+macro_scrollock_i: macro_scrollock_i{
+compatible = "zmk,behavior-macro";
+label = "macro_scrollock_i";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp I>, <&kp K_SCROLL_UP>;
+};
+macro_scrolllock_v: macro_scrolllock_v{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_v";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp V>, <&kp K_SCROLL_UP>;
+};
+macro_scrolllock_f: macro_scrolllock_f{
+compatible = "zmk,behavior-macro";
+label = "macro_scrolllock_f";
+#binding-cells = <0>;
+bindings = <&kp K_SCROLL_DOWN>, <&kp F>, <&kp K_SCROLL_UP>;
+};
 macro_lambda: macro_lambda{
 compatible = "zmk,behavior-macro";
 label = "macro_lambda";
