@@ -1,3 +1,9 @@
+macro_macro_test: macro_macro_test{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_test";
+#binding-cells = <0>;
+bindings = <&kp A>;
+};
 macro_scrolllock_del: macro_scrolllock_del{
 compatible = "zmk,behavior-macro";
 label = "macro_scrolllock_del";
